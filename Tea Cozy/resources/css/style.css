@@ -1,0 +1,148 @@
+/* gemeral styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+  margin: 0;
+}
+
+header,
+.body-part,
+.widgets,
+.location,
+.locations {
+  display: flex;
+}
+
+.body-part,
+.location,
+.locations {
+  flex-flow: column;
+  align-items: center;
+}
+
+span,
+h2,
+h4 {
+  margin: 10px;
+}
+
+/* header styles */
+header {
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+/* main body part */
+
+.body-part {
+  padding-top: 69px;
+  z-index: 5;
+}
+
+/* main title styles */
+
+.title {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+/* our mission styles */
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: inline-flex;
+  align-items: center;
+}
+
+/* featured tea styles */
+
+.featured {
+  width: 1000px;
+  padding-top: 69px;
+}
+
+.boxes {
+  margin: 15px;
+  text-align: center;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+}
+
+.widgets {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* locations styles */
+
+.locations {
+  margin-top: 69px;
+  padding-bottom: 70px;
+  z-index: 5;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+}
+
+.location {
+  height: 280px;
+  width: 280px;
+  margin: 7px 20px;
+  padding: 10px;
+  background-color: black;
+  opacity: 1;
+  justify-content: space-between;
+}
+
+.addresses {
+  display: inline-flex;
+}
+
+h3 {
+  margin: 0px;
+  padding: 10px;
+}
+
+p {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+/* contact info styles */
+
+.contact {
+  height: 200px;
+  text-align: center
+}
+
+/* footer styles */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
